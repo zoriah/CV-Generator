@@ -70,5 +70,20 @@ Foto (JPG/PNG) in `src/` kopieren und im JSON eintragen:
 
 ## Anlagen Einbinden
 
-`src/assets/merge_bewerbung.py` mit python ausführen.
-Entsprechende Anlagen Bezeichnungen in der Python-Datei anpassen!
+`src/assets/merge_bewerbung.py` mit Python ausführen.
+Entsprechende Anlagen Bezeichnungen in der Python-Datei anpassen.
+Es können beliebig viele Anlagen hinzugefügt werden!
+
+**Hier die Pfade zu deinen Dateien anpassen**
+
+```python
+HAUPT_PDF = "bewerbungsmappe.pdf"
+BACHELOR_ZEUGNIS = "bachelor-zeugnis.pdf" # 1 Seite
+ARBEITSZEUGNIS = "arbeitszeugnis.pdf" # 2 Seiten
+ZERTIFIKAT_1 = "zertifikat-ki-poweruser.pdf" # 1 Seite
+ZERTIFIKAT_2 = "zertifikat-fullstack.pdf" # 1 Seite
+
+REIHENFOLGE = [HAUPT_PDF, ARBEITSZEUGNIS, BACHELOR_ZEUGNIS, ZERTIFIKAT_1, ZERTIFIKAT_2]
+
+AUSGABE = "Bewerbungsmappe_final.pdf"
+```
