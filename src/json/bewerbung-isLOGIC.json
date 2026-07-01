@@ -1,0 +1,189 @@
+{
+  "person": {
+    "vorname": "Osman Naci",
+    "nachname": "Aydogan",
+    "titel": "",
+    "geburtsdatum": "13.12.1987",
+    "geburtsort": "Berlin",
+    "adresse": "Mehringdamm 10",
+    "plz": "10961",
+    "stadt": "Berlin",
+    "telefon": "+49 179 24 1313 4",
+    "email": "noa351@hotmail.de",
+    "linkedin": "https://www.linkedin.com/in/naci-osman-aydogan-36148614b",
+    "GitHub": "https://github.com/smirnovmykyta/fe-SkillNest\nhttps://github.com/smirnovmykyta/be-SkillNest"
+  },
+  "bewerbung": {
+    "stelle": "Webentwickler / Frontend Developer (m/w/d)",
+    "unternehmen": "isLOGIC AG",
+    "abteilung": "Softwareentwicklung",
+    "sex": "m",
+    "ansprechpartner": "Richter",
+    "datum": "",
+    "ort": "Berlin"
+  },
+  "anschreiben": {
+    "betreff": "Bewerbung als Webentwickler / Frontend Developer (m/w/d) – Ihre Stellenausschreibung vom 13.06.2026",
+    "einleitung": "mit großem Interesse habe ich Ihre Stellenausschreibung für die Position als Webentwickler / Frontend Developer (m/w/d) gelesen. Als leidenschaftlicher Fullstack-Entwickler mit über drei Jahren Erfahrung in der Entwicklung moderner Webanwendungen möchte ich mein Wissen und meine Fähigkeiten in Ihr Team einbringen.",
+    "hauptteil": "In meiner Zeit bei der Cosmo Consult AG habe ich als Fullstack-Webentwickler eigenverantwortlich einen unternehmensweiten Online-Produktshop konzipiert und umgesetzt, über den Kunden Microsoft-Produkte wie MS Dynamics NAV, Business Intelligence-Lösungen und weitere Microsoft-Dienste erwerben und integrieren lassen können. Das Projekt umfasste die vollständige Entwicklung von Frontend und Backend sowie die enge Abstimmung mit Kolleginnen und Kollegen verschiedener Fachbereiche – von der Einbindung von Zertifikaten über die Gestaltung des Designs bis hin zur Konzeption der Datenabfragen. Die Plattform gibt Interessenten die Möglichkeit, sich strukturiert einen Überblick über die für ihr Unternehmen relevanten Lösungen zu verschaffen. Diese bereichsübergreifende Zusammenarbeit hat mir gezeigt, dass technische Qualität und offene Kommunikation untrennbar zusammengehören – denn nur im engen Austausch mit dem Team entstehen Lösungen, die wirklich funktionieren und langfristig Bestand haben.",
+    "schluss": "Ich freue mich sehr auf ein persönliches Gespräch, in dem ich Ihnen mehr über meine Erfahrungen und meine Motivation berichten kann. Meine Gehaltsvorstellung für diese Position liegt bei 50.000 € brutto jährlich – ich bin jedoch offen für eine Diskussion im Rahmen eines Gesprächs. Für Rückfragen stehe ich Ihnen jederzeit gerne zur Verfügung."
+  },
+  "lebenslauf": {
+    "profil": "Erfahrener Fullstack-Entwickler mit Schwerpunkt auf MERN-Stack, Performance-Optimierung und KI-Pairprogramming Fähigkeiten in der Webentwicklung. Teamplayer mit ausgeprägtem Sinn für sauberen, wartbaren Code.",
+    "berufserfahrung": [
+      {
+        "position": "Freiberuflertätigkeit als Fullstack-Entwickler",
+        "unternehmen": "bikeparkberlin.de",
+        "zeitraum": "01.2026 – heute",
+        "ort": "Berlin",
+        "aufgaben": [
+          "Leitung der Fullstack-Architektur einer Astro-Plattform mit Schwerpunkt auf Informationsbereitstellung und des Angebots von Fahrraddienstleistungen.",
+          "Selbstentwickeltes Design-System für den Online-Shop.",
+          "Sicherheitsoptimierung für Schutz gegen Angriffe und Datenverlust."
+        ]
+      },
+      {
+        "position": "Freiberuflertätigkeit als Fullstack-Entwickler",
+        "unternehmen": "trendyarmystore.de",
+        "zeitraum": "01.2020 - heute",
+        "ort": "Berlin",
+        "aufgaben": [
+          "Pflege von Produktdaten und Landingpages.",
+          "Kassensystem-Umstellung inkl. Anleitungsdokumentation."
+        ]
+      },
+      {
+        "position": "Webentwickler / Fullstack-Entwickler",
+        "unternehmen": "CosmoConsult AG",
+        "zeitraum": "06.2019 - 12.2023",
+        "ort": "Berlin",
+        "aufgaben": [
+          "Leitung der Fullstack-Architektur einer MERN-Plattform mit Schwerpunkt auf Neukundengewinnung und aktiver Kundenakquise.",
+          "Einführung eines Design-System auf Basis von Googles Material Design.",
+          "Reduktion der Entwicklungszeit um 50% durch wiederverwendbare Komponentenarchitektur. Keine Code-Duplikation.",
+          "Filtergenerator zur Übersicht und Erfassung von Kundendaten."
+        ]
+      },
+      {
+        "position": "Coach für Universitäres Projekt – Three.js",
+        "zeitraum": "04.2021",
+        "ort": "Berlin (Remote)",
+        "aufgaben": [
+          "Visuelle Code-Erläuterung via Screen Sharing und Live-Coding. Vermittlung von Grundlagen der 2D-Programmierung in Bezug auf Diagrammen mit Three.js an eine IT-Studentin.",
+          "Ergebnis: Endnote 1,0."
+        ]
+      },
+      {
+        "position": "Nachilfelehrer für Mathematik und Webprogrammierung",
+        "zeitraum": "01.2017 - 12.2025",
+        "ort": "Berlin (Remote)",
+        "aufgaben": [
+          "Individuelle Förderung von Schülern und Studenten in Mathematik und Webprogrammierung. Erstellung von Lernmaterialien, Übungsaufgaben und Prüfungsvorbereitung. Unterstützung bei der Entwicklung von Projekten und Hausarbeiten.",
+          "Nachhaltige Notenverbesserung."
+        ]
+      },
+      {
+        "position": "Weiterbildung zum KI Kompakt",
+        "zeitraum": "11.2025 - 01.2026",
+        "ort": "Berlin (Remote)",
+        "aufgaben": [
+          "Finales Projekt: Portfolio-Website mit KI-Pairprogramming."
+        ]
+      },
+      {
+        "position": "Weiterbildung zum Full Stack Web und App Developmer",
+        "zeitraum": "11.2024 - 03.2025",
+        "ort": "Berlin (Remote)",
+        "aufgaben": [
+          "Ebaykleinanzeigen Clone zum Teilen von Fähigkeiten.",
+          "Frontend: https://github.com/smirnovmykyta/fe-SkillNest",
+          "Backend: https://github.com/smirnovmykyta/be-SkillNest"
+        ]
+      }
+    ],
+    "ausbildung": [
+      {
+        "abschluss": "Bachelor of Science – Medieninformatik",
+        "institution": "Berliner Hochschule für Technik",
+        "zeitraum": "2015 - 2019",
+        "note": "2,42"
+      },
+      {
+        "abschluss": "Exmatrikuliert",
+        "zeitraum": "2009 - 2014",
+        "titel": "Maschinenbau Bachelor (B.Sc.)",
+        "institution": "Technische Universität Berlin",
+        "note": "Exmatrikulation zugunsten der IT-Leidenschaft."
+      },
+      {
+        "abschluss": "Pflichtwehrdienstleistender - Panzerbataillon 413",
+        "zeitraum": "07.2009 - 03.2010",
+        "ort": "Torgelow",
+        "aufgaben": [
+          "Teamarbeit, Disziplin und lösungsorientiertes Handeln in unterschiedlichen Situationen – Werte, die ich bei der Bundeswehr verinnerlicht habe."
+        ]
+      },
+      {
+        "abschluss": "Allgemeine Hochschulreife",
+        "zeitraum": "06.2005 - 06.2009",
+        "ort": "Berlin",
+        "institution": "Friedensburg-Oberschule, Berlin"
+      }
+    ],
+    "kenntnisse": {
+      "technisch": [
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Express",
+        "Php",
+        "Git",
+        "GitHub",
+        "SQL",
+        "MongoDB",
+        "Agile Methoden (Scrum, Kanban)",
+        "Next.js",
+        "REST APIs",
+        "Docker",
+        "Figma"
+      ],
+      "sprachen": [
+        { "sprache": "Deutsch", "niveau": "Muttersprache" },
+        { "sprache": "Englisch", "niveau": "B2" },
+        { "sprache": "Türkisch", "niveau": "B1 – Gute Kenntnisse" }
+      ]
+    },
+    "zertifikate": [
+      {
+        "name": "WBS Coding School - Zertifikat KI Kompakt",
+        "jahr": "2026"
+      },
+      {
+        "name": "WBS Coding School - Zertifikat Full Stack Web und App Development",
+        "jahr": "2025"
+      }
+    ],
+    "interessen": [
+      "Open-Source-Beiträge",
+      "Technologie-Beiträge",
+      "Spazieren",
+      "Essen"
+    ]
+  },
+  "anlagen": [
+    { "name": "Arbeitszeugnis", "seiten": 2 },
+    { "name": "Bachelor-Zeugnis", "seiten": 1 },
+    {
+      "name": "WBS Coding School - Zertifikat KI Kompakt",
+      "seiten": 1
+    },
+    {
+      "name": "WBS Coding School - Zertifikat Full Stack Web und App Development",
+      "seiten": 1
+    }
+  ]
+}

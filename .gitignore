@@ -1,0 +1,14 @@
+
+node_modules/
+
+src/anlagen
+src/json
+src/venv
+
+*lock*
+!package-lock.json
+
+noa-bewerbung.json
+index-original.html
+Bewerbungsfoto26.jpg
+cv-dataNoa.json
