@@ -1,4 +1,4 @@
-# 📄 Bewerbungsmappe Generator
+# 📄 CV-Generator
 
 PDF-Generator für professionelle Bewerbungsmappen – webbasiert, mit Live-Vorschau und JSON-Datenladen.
 
@@ -13,14 +13,13 @@ npm run dev
 
 ## Features
 
-| Feature | Beschreibung |
-|---------|-------------|
-| 🔄 HMR | Vite Hot Module Reload – Änderungen sofort sichtbar |
-| 📋 XML-Templates | Layout-Struktur in `src/template.xml` definiert |
-| 📦 JSON-Daten | Alle Inhalte in `src/bewerbung.json` |
-| 🖨 PDF-Export | `window.print()` → Als PDF speichern (Browser-Dialog) |
-| 📱 Mehrseitig | Automatischer Seitenumbruch bei langen Lebensläufen |
-| ✏️ Live-Editor | JSON direkt in der Sidebar bearbeiten |
+| Feature        | Beschreibung                                          |
+| -------------- | ----------------------------------------------------- |
+| 🔄 HMR         | Vite Hot Module Reload – Änderungen sofort sichtbar   |
+| 📦 JSON-Daten  | Alle Inhalte in `src/bewerbung.json`                  |
+| 🖨 PDF-Export  | `window.print()` → Als PDF speichern (Browser-Dialog) |
+| 📱 Mehrseitig  | Automatischer Seitenumbruch bei langen Lebensläufen   |
+| ✏️ Live-Editor | JSON direkt in der Sidebar bearbeiten                 |
 
 ## Struktur
 
@@ -64,6 +63,12 @@ bewerbung-generator/
 ## Bewerbungsfoto einbinden
 
 Foto (JPG/PNG) in `src/` kopieren und im JSON eintragen:
+
 ```json
 "foto": "mein-foto.jpg"
 ```
+
+## Anlagen Einbinden
+
+`src/assets/merge_bewerbung.py` mit python ausführen.
+Entsprechende Anlagen Bezeichnungen in der Python-Datei anpassen!
