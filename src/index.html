@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bewerbungsmappe Generator</title>
+
+  <link rel="stylesheet" href="/styles/style.css">
+
+</head>
+
+<body>
+
+  <div id="app-shell">
+
+    <!-- =================== SIDEBAR =================== -->
+    <nav id="sidebar">
+      <div id="sidebar-header">
+        <h1>Bewerbungsmappe</h1>
+        <p>PDF Generator · v1.0</p>
+      </div>
+
+      <!-- Seiten Navigation -->
+      <div class="sidebar-section">
+        <h3>Seiten</h3>
+        <div class="page-nav" id="page-nav">
+          <div class="page-nav-item active" data-page="deckblatt" onclick="scrollToPage('deckblatt', this)">
+            <span class="page-num">1</span> Deckblatt
+          </div>
+          <div class="page-nav-item" data-page="anschreiben" onclick="scrollToPage('anschreiben', this)">
+            <span class="page-num">2</span> Anschreiben
+          </div>
+          <div class="page-nav-item" data-page="lebenslauf" onclick="scrollToPage('lebenslauf', this)">
+            <span class="page-num">3</span> Lebenslauf
+          </div>
+          <div class="page-nav-item" data-page="lebenslauf-2" onclick="scrollToPage('lebenslauf-2', this)">
+            <span class="page-num">4</span> Ausbildung
+          </div>
+          <div class="page-nav-item" data-page="anlagen-deckblatt" onclick="scrollToPage('anlagen-deckblatt', this)">
+            <span class="page-num">5</span> Anlagen-Übersicht
+          </div>
+        </div>
+      </div>
+
+      <!-- Drucken -->
+      <div class="sidebar-section">
+        <h3>Exportieren</h3>
+        <button class="btn btn-primary" onclick="doPrint()">🖨 Als PDF drucken / speichern</button>
+        <button class="btn btn-ghost" onclick="loadJsonFile()">📂 JSON laden</button>
+        <input type="file" id="json-file-input" accept=".json" style="display:none" onchange="handleJsonFile(event)" />
+        <button class="btn btn-ghost" onclick="loadFotoFile()">🖼 Foto laden (JPG/PNG)</button>
+        <input type="file" id="foto-file-input" accept="image/*" style="display:none"
+          onchange="handleFotoFile(event)" />
+        <div id="foto-preview-wrap" style="display:none; margin-top:8px; text-align:center;">
+          <img id="foto-preview"
+            style="width:80px;height:100px;object-fit:cover;border:2px solid rgba(255,255,255,0.15);border-radius:3px;" />
+          <div style="font-size:0.68rem;color:#7A8898;margin-top:4px;">Foto geladen ✓</div>
+          <button class="btn btn-ghost" style="margin-top:4px;font-size:0.72rem;padding:4px 8px;"
+            onclick="removeFoto()">✕ Foto entfernen</button>
+        </div>
+      </div>
+
+      <!-- JSON Live-Editor -->
+      <div class="sidebar-section">
+        <h3>Daten (JSON)</h3>
+        <div id="json-editor-wrap">
+          <textarea id="json-editor" spellcheck="false" oninput="onJsonInput(this)"></textarea>
+          <div id="json-status" class="ok">✓ Gültig</div>
+          <button class="btn btn-secondary" style="margin-top:8px" onclick="applyJson()">↺ Vorschau
+            aktualisieren</button>
+        </div>
+      </div>
+
+      <!-- HMR Status -->
+      <div style="margin-top:auto">
+        <div id="status-bar">
+          <div id="status-dot"></div>
+          <span id="status-text">Live-Vorschau aktiv</span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- =================== PREVIEW =================== -->
+    <main id="preview-area">
+      <div id="preview-toolbar">
+        <span id="page-info">5 Seiten · DIN A4</span>
+        <button class="print-btn" onclick="doPrint()">🖨 &nbsp;PDF speichern (Drucken)</button>
+      </div>
+      <div id="pages-container"></div>
+    </main>
+
+  </div>
+  <script src="/js/main.js"></script>
+</body>
+
+</html>

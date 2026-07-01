@@ -1,0 +1,113 @@
+{
+  "person": {
+    "vorname": "Anna",
+    "nachname": "Müller",
+    "titel": "",
+    "geburtsdatum": "15.03.1995",
+    "geburtsort": "München",
+    "adresse": "Musterstraße 42",
+    "plz": "10115",
+    "stadt": "Berlin",
+    "telefon": "+49 170 1234567",
+    "email": "anna.mueller@example.com",
+    "linkedin": "https://www.linkedin.com/in/anna-mueller-frontend",
+    "GitHub": "https://github.com/anna-mueller",
+    "foto": "bewerbungsfoto.jpg"
+  },
+  "bewerbung": {
+    "stelle": "Senior Frontend-Entwicklerin",
+    "unternehmen": "Innovatech GmbH",
+    "abteilung": "Produktentwicklung",
+    "ansprechpartner": "Frau Dr. Sabine Weber",
+    "datum": "",
+    "ort": "Berlin"
+  },
+  "anschreiben": {
+    "betreff": "Bewerbung als Senior Frontend-Entwicklerin – Ihre Stellenausschreibung vom 01.06.2026",
+    "einleitung": "mit großem Interesse habe ich Ihre Stellenausschreibung für die Position der Senior Frontend-Entwicklerin gelesen. Als leidenschaftliche Entwicklerin mit über sechs Jahren Erfahrung in der Gestaltung moderner Webanwendungen möchte ich mein Wissen und meine Fähigkeiten in Ihr Team einbringen.",
+    "hauptteil": "In meiner aktuellen Position bei der WebCraft AG habe ich maßgeblich an der Neugestaltung unserer Hauptplattform mitgewirkt, die heute täglich von über 200.000 Nutzerinnen und Nutzern verwendet wird. Ich verantworte die technische Umsetzung komplexer UI-Komponenten in React und TypeScript sowie die enge Zusammenarbeit mit UX-Design und Backend-Teams. Meine Erfahrung in agilen Entwicklungsprozessen und mein Gespür für nutzerzentriertes Design machen mich zur idealen Kandidatin für Ihre Position. Besonders reizt mich an Ihrem Unternehmen Ihr Engagement für nachhaltige Technologien und die Möglichkeit, an Produkten zu arbeiten, die echten gesellschaftlichen Mehrwert schaffen.",
+    "schluss": "Ich freue mich sehr auf ein persönliches Gespräch, in dem ich Ihnen mehr über meine Erfahrungen und Motivation berichten kann. Für Rückfragen stehe ich Ihnen jederzeit gerne zur Verfügung."
+  },
+  "lebenslauf": {
+    "profil": "Erfahrene Frontend-Entwicklerin mit Schwerpunkt auf React-Ökosystem, Performance-Optimierung und barrierefreier Webentwicklung. Teamplayerin mit ausgeprägtem Sinn für sauberen, wartbaren Code.",
+    "berufserfahrung": [
+      {
+        "position": "Senior Frontend-Entwicklerin",
+        "unternehmen": "WebCraft AG",
+        "zeitraum": "2021 – heute",
+        "ort": "Berlin",
+        "aufgaben": [
+          "Leitung der Frontend-Architektur für eine SaaS-Plattform mit 200.000+ aktiven Nutzern",
+          "Einführung eines Design-System auf Basis von Storybook und Tailwind CSS",
+          "Mentoring von drei Junior-Entwicklern",
+          "Reduktion der Ladezeit um 40% durch Code-Splitting und Lazy Loading"
+        ]
+      },
+      {
+        "position": "Frontend-Entwicklerin",
+        "unternehmen": "DigitalStudio Berlin",
+        "zeitraum": "2019 – 2021",
+        "ort": "Berlin",
+        "aufgaben": [
+          "Entwicklung responsiver Webanwendungen für mittelständische Kunden",
+          "Implementierung von CI/CD-Pipelines mit GitHub Actions",
+          "Technische SEO-Optimierung und Core Web Vitals Verbesserung"
+        ]
+      },
+      {
+        "position": "Junior Webentwicklerin",
+        "unternehmen": "Kreativagentur München",
+        "zeitraum": "2017 – 2019",
+        "ort": "München",
+        "aufgaben": [
+          "Erstellung von WordPress-Themes und Plugins",
+          "HTML/CSS-Entwicklung nach Figma-Vorlagen",
+          "Kundenkommunikation und Projektmanagement"
+        ]
+      }
+    ],
+    "ausbildung": [
+      {
+        "abschluss": "Bachelor of Science – Medieninformatik",
+        "institution": "Ludwig-Maximilians-Universität München",
+        "zeitraum": "2013 – 2017",
+        "note": "1,8"
+      }
+    ],
+    "kenntnisse": {
+      "technisch": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Vue.js",
+        "Node.js",
+        "GraphQL",
+        "REST APIs",
+        "Git",
+        "Docker",
+        "Figma"
+      ],
+      "sprachen": [
+        { "sprache": "Deutsch", "niveau": "Muttersprache" },
+        { "sprache": "Englisch", "niveau": "C1 – Verhandlungssicher" },
+        { "sprache": "Französisch", "niveau": "B1 – Gute Kenntnisse" }
+      ]
+    },
+    "zertifikate": [
+      { "name": "AWS Certified Developer – Associate", "jahr": "2023" },
+      { "name": "Google Professional Cloud Developer", "jahr": "2022" }
+    ],
+    "interessen": [
+      "Open-Source-Beiträge",
+      "Technologie-Podcasts",
+      "Klettern",
+      "Städtereisen"
+    ]
+  },
+  "anlagen": [
+    "Lebenslauf",
+    "Arbeitszeugnisse (2)",
+    "Bachelor-Zeugnis",
+    "AWS Zertifikat"
+  ]
+}
