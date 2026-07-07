@@ -70,8 +70,9 @@ Foto (JPG/PNG) in `src/` kopieren und im JSON eintragen:
 
 ## Anlagen Einbinden
 
-## Voraussetzung:  
-pypdf muss installiert sein. 
+### Voraussetzung:  
+1. python muss installiert sein (Version 3)
+2. pypdf muss installiert sein. (siehe Schritte unten!) 
 
 ```bash
 python -m venv .venv
