@@ -36,7 +36,7 @@ bewerbung-generator/
 
 ## JSON anpassen
 
-Öffne `src/bewerbung.json` und passe deine Daten an (Lässt man unter bewerbung `"datum":""` den Wert leerer String wird das aktuelle Datum verwendet!):
+Öffne `src/bewerbung.json` und passe deine Daten an (Lässt man unter bewerbung `"datum":""` den Stringwert leer wird das aktuelle Datum automatisch erzeugt und eingetragen!):
 
 ```json
 {
