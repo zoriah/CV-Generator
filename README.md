@@ -70,6 +70,15 @@ Foto (JPG/PNG) in `src/` kopieren und im JSON eintragen:
 
 ## Anlagen Einbinden
 
+### Voraussetzung: pypdf muss installiert sein. 
+Dazu folgende Schritte beachten:
+`python -m venv .venv`  
+`source .venv/bin/activate`    
+`# macOS/Linux # oder:`  
+`.venv\Scripts\activate`     
+`# Windows (PowerShell/CMD)`  
+`python -m pip install pypdf`
+
 `src/assets/merge_bewerbung.py` mit Python ausführen.
 Entsprechende Anlagen Bezeichnungen in der Python-Datei anpassen.
 Es können beliebig viele Anlagen hinzugefügt werden!
